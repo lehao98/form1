@@ -1,0 +1,19 @@
+<form #simpleForm="ngForm" (ngSubmit)="getValues(simpleForm.value)">
+  <input type="text" ngModel name="user" placeholder="Enter User Name">
+  <br><br>
+  <input type="text" ngModel name="age" placeholder="Enter User Name">
+  <br><br>
+  <input type="text" ngModel name="address" placeholder="Enter User Name">
+  <br><br>
+
+  <input type="password" ngModel name="password" placeholder="Enter User Password">
+  <br><br>
+  <button onclick="myFunction()">Sign Up</button>
+
+
+
+  <script>
+    function myFunction() {
+  alert("I am an alert box!");
+}
+  </script>
